@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohd Kashif | Software & Technical Operations</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-cyan-500 selection:text-slate-950">
+
+    <!-- Navbar -->
+    <nav class="fixed top-0 bg-slate-950/80 backdrop-blur-md border-b border-slate-800 z-50 w-full">
+        <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+            <a href="#" class="font-bold text-lg tracking-wider text-cyan-400">MOHD KASHIF</a>
+            <div class="hidden md:flex space-x-8 text-sm font-medium text-slate-300">
+                <a href="#about" class="hover:text-cyan-400 transition">About</a>
+                <a href="#skills" class="hover:text-cyan-400 transition">Skills</a>
+                <a href="#projects" class="hover:text-cyan-400 transition">Projects</a>
+                <a href="#contact" class="hover:text-cyan-400 transition">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="about" class="pt-32 pb-20 md:pt-44 md:pb-32 px-6 max-w-6xl mx-auto flex flex-col items-start">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-500/10 border border-cyan-500/20 text-cyan-400 text-xs font-semibold mb-6">
+            <span class="w-2 h-2 rounded-full bg-cyan-400 animate-pulse"></span> Available for Remote Technical & Engineering Roles
+        </div>
+        <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight mb-4">
+            Hi, I'm <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">Mohd Kashif</span>.
+        </h1>
+        <p class="text-lg md:text-xl text-slate-400 max-w-2xl mb-8 leading-relaxed">
+            Computer Science (AI & ML) graduate specializing in Python debugging, environment configuration, command-line operations, machine learning models, and web applications.
+        </p>
+        <div class="flex flex-wrap gap-4">
+            <a href="#projects" class="px-6 py-3 rounded-lg bg-cyan-500 text-slate-950 font-semibold hover:bg-cyan-400 transition shadow-lg shadow-cyan-500/20">
+                View Projects
+            </a>
+            <a href="#contact" class="px-6 py-3 rounded-lg bg-slate-900 border border-slate-800 text-slate-300 font-semibold hover:bg-slate-800 transition">
+                Get in Touch
+            </a>
+        </div>
+    </header>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 bg-slate-900/50 border-y border-slate-900">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-2xl md:text-3xl font-bold mb-12 flex items-center gap-3">
+                <span class="text-cyan-400">01.</span> Technical Expertise
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="p-6 rounded-xl bg-slate-900 border border-slate-800 hover:border-cyan-500/50 transition">
+                    <div class="text-cyan-400 text-2xl mb-4"><i class="fa-solid fa-terminal"></i></div>
+                    <h3 class="font-bold text-lg mb-2">Systems & CLI</h3>
+                    <p class="text-slate-400 text-sm">Linux / Bash workflows, Command Prompt (CMD), Python virtual environments (venv), and dependency debugging (pip).</p>
+                </div>
+                <div class="p-6 rounded-xl bg-slate-900 border border-slate-800 hover:border-cyan-500/50 transition">
+                    <div class="text-cyan-400 text-2xl mb-4"><i class="fa-solid fa-code"></i></div>
+                    <h3 class="font-bold text-lg mb-2">Development & ML</h3>
+                    <p class="text-slate-400 text-sm">Python, Streamlit, OpenCV, Machine Learning models, SQL, MySQL, HTML, CSS, JavaScript, and GitHub version control.</p>
+                </div>
+                <div class="p-6 rounded-xl bg-slate-900 border border-slate-800 hover:border-cyan-500/50 transition">
+                    <div class="text-cyan-400 text-2xl mb-4"><i class="fa-solid fa-cloud"></i></div>
+                    <h3 class="font-bold text-lg mb-2">Cloud & Data</h3>
+                    <p class="text-slate-400 text-sm">AWS Cloud Essentials (EC2, S3, RDS, IAM, VPC), B2B Data Research via Apollo.io, and Microsoft Excel data structuring.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 px-6 max-w-6xl mx-auto">
+        <h2 class="text-2xl md:text-3xl font-bold mb-12 flex items-center gap-3">
+            <span class="text-cyan-400">02.</span> Featured Projects
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+            <!-- Project 1: Stock Market Predictor -->
+            <div class="p-6 rounded-xl bg-slate-900 border border-slate-800 flex flex-col justify-between hover:border-cyan-500/50 transition">
+                <div>
+                    <div class="flex justify-between items-center mb-4">
+                        <span class="text-xs font-mono text-cyan-400 bg-cyan-500/10 px-2 py-1 rounded">Live App</span>
+                        <a href="https://github.com" target="_blank" class="text-slate-400 hover:text-white"><i class="fa-brands fa-github text-lg"></i></a>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Stock Market Prediction Web App</h3>
+                    <p class="text-slate-400 text-sm mb-6 leading-relaxed">
+                        Interactive financial analysis platform built with Python and Streamlit. Integrates real-time feeds (yfinance), Pandas, and Plotly visualization libraries for dynamic trend mapping.
+                    </p>
+                </div>
+                <div class="flex flex-wrap gap-2 text-xs font-mono text-slate-300">
+                    <span class="bg-slate-800 px-2.5 py-1 rounded">Python</span>
+                    <span class="bg-slate-800 px-2.5 py-1 rounded">Streamlit</span>
+                    <span class="bg-slate-800 px-2.5 py-1 rounded">Plotly</span>
+                </div>
+            </div>
+
+            <!-- Project 2: Gold Price Prediction -->
+            <div class="p-6 rounded-xl bg-slate-900 border border-slate-800 flex flex-col justify-between hover:border-cyan-500/50 transition">
+                <div>
+                    <div class="flex justify-between items-center mb-4">
+                        <span class="text-xs font-mono text-cyan-400 bg-cyan-500/10 px-2 py-1 rounded">Machine Learning</span>
+                        <a href="https://github.com" target="_blank" class="text-slate-400 hover:text-white"><i class="fa-brands fa-github text-lg"></i></a>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Gold Price Prediction Model</h3>
+                    <p class="text-slate-400 text-sm mb-6 leading-relaxed">
+                        ML-based regression model designed to analyze historical financial metrics, market trends, and economic indicators to forecast gold price fluctuations accurately.
+                    </p>
+                </div>
+                <div class="flex flex-wrap gap-2 text-xs font-mono text-slate-300">
+                    <span class="bg-slate-800 px-2
